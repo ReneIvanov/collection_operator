@@ -24,10 +24,10 @@ Or install it yourself as:
 
 This gem provide some functionalities for work with collections, like arrays, hashes and so on. 
 
-# Methods on arrays:
+### Methods on arrays:
 
-CollectionOperator::WithArray.hashes_subset(array1, array2)
-Compare two arrays which consist from hashes. Hashes in first array has to be quals or subsets of hashes in second array.
+####CollectionOperator::WithArray.hashes_subset(array1, array2)  
+Compare two arrays which consist from hashes. Hashes in first array has to be quals or subsets of hashes in second array.  
 Example:
 ```ruby
 array1 = [{a: 1, b: 2}, {monday: "first", tuesday: "second"}]
