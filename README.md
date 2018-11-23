@@ -26,7 +26,7 @@ This gem provide some functionalities for work with collections, like arrays, ha
 
 ### Methods on arrays:
 
-#### CollectionOperator::WithArray.hashes_subset(array1, array2)  
+#### CollectionOperator::WithArray.hashes_subset(array1, array2)
 Compare two arrays which consist from hashes. Hashes in first array has to be quals or subsets of hashes in second array.  
 Example:
 ```ruby
